@@ -4,6 +4,7 @@
 @import './Login.css';
 @import './TopBar.css';
 @import './Gallery.css';
+@import './Home.css';
 
 .App {
   text-align: center;

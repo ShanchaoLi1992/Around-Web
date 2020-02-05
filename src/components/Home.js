@@ -106,7 +106,7 @@ export class Home extends React.Component {
                     posts
                         .filter((post) => [POST_TYPE_VIDEO,    POST_TYPE_UNKNOWN].includes(post.type))
                         .map((post) => (
-                            <Col span={6} key={post.url}>
+                            <Col span={12} key={post.url}>
                                 <video src={post.url} controls={true} className="video-block"/>
                                 <p>{post.user}: {post.message}</p>
                             </Col>
