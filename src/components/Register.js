@@ -42,7 +42,7 @@ class RegistrationForm extends Component {
                     body: JSON.stringify({
                         username: values.username,
                         password: values.password,
-                    }),
+                    })
                 })
                     .then((response) => {
                         if (response.ok) {
