@@ -91,8 +91,8 @@ export class Home extends React.Component {
                     src: post.url,
                     thumbnail: post.url,
                     caption: post.message,
-                    thumbnailWidth: 400,
-                    thumbnailHeight: 300,
+                    thumbnailWidth: 200,
+                    thumbnailHeight: 150,
                 };
             });
         return <Gallery images={images}/>
